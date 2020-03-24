@@ -1,0 +1,18 @@
+@use 'styles/scss/var/colors';
+
+.Button {
+  border-radius: 2px;
+  transition: background-color 200ms;
+  background-color: colors.$react;
+  color: colors.$dark;
+
+  &--disabled {
+    background-color: colors.$grey;
+    cursor: default;
+  }
+
+  &:hover:not(&--disabled) {
+    background-color: colors.$hover;
+    color: colors.$dark;
+  }
+}

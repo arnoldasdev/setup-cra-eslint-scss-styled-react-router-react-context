@@ -1,0 +1,10 @@
+@use 'styles';
+@use 'styles/scss/var/colors';
+
+.App {
+  color: colors.$light;
+  background-color: colors.$dark;
+  min-height: 100vh;
+  font-size: calc(1rem + 0.25vw);
+  word-break: break-word;
+}

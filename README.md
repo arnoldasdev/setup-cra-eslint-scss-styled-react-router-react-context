@@ -1,3 +1,21 @@
+# create-react-app [setup]
+
+- **react-context**
+- **react-router**
+- **styled-components**
+- **scss**
+- **eslint [airbnb]**
+
+Install: [VS Code ESLint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) to enable the syntax highlighting.
+
+**On Windows change `.env`**
+
+~~`SASS_PATH=node_modules:src`~~
+
+`SASS_PATH=node_modules;src`
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

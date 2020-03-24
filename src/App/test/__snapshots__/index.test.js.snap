@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[snapshots] User-is-Authenticated Matches-snapshot <App> 1`] = `
+<div
+  className="App"
+  data-testid="App"
+>
+  <div
+    className="Layout"
+    data-testid="Layout"
+  >
+    <header
+      className="Header"
+      data-testid="Header"
+    >
+      <div
+        className="view-Header"
+      >
+        <div
+          className="view-Header-logo"
+        >
+          <img
+            alt="logo"
+            src="logo.svg"
+          />
+        </div>
+        <nav
+          className="view-Header-nav"
+        >
+          <a
+            href="/"
+            title="/"
+          >
+            /
+          </a>
+          <a
+            href="/"
+            onClick={[Function]}
+            title="home"
+          >
+            /home
+          </a>
+          <a
+            href="/fetch"
+            onClick={[Function]}
+            title="fetch"
+          >
+            /fetch
+          </a>
+          <a
+            href="/about"
+            onClick={[Function]}
+            title="about"
+          >
+            /about
+          </a>
+          <a
+            href="/redirect"
+            onClick={[Function]}
+            title="redirect to /"
+          >
+            /redirect
+          </a>
+          <button
+            className="Button"
+            onClick={[Function]}
+            title="Log out"
+            type="button"
+          >
+            Log out
+          </button>
+        </nav>
+      </div>
+    </header>
+    <div
+      className="Content"
+      data-testid="Content"
+    >
+      <div
+        className="view-Home"
+      >
+        <h2>
+          [setup]-create-react-app
+        </h2>
+        <ul>
+          <li>
+            react-context
+          </li>
+          <li>
+            react-router
+          </li>
+          <li>
+            styled-components
+          </li>
+          <li>
+            scss
+          </li>
+          <li>
+            eslint [airbnb]
+          </li>
+        </ul>
+        <div
+          className="Samples"
+        >
+          <div
+            className="Row Row-1-col ta-center"
+          >
+            <div
+              className="col"
+            >
+              <h5>
+                context-state
+              </h5>
+              <button
+                className="Button"
+                onClick={[Function]}
+                title="Log out"
+                type="button"
+              >
+                Log out
+              </button>
+            </div>
+          </div>
+          <div
+            className="Row Row-2-col"
+          >
+            <div
+              className="col"
+            >
+              <div
+                className="Box"
+              >
+                <div
+                  className="Box-background"
+                />
+                <div
+                  className="Box-body"
+                >
+                  <span
+                    className="Box-content"
+                  >
+                    Sample: SCSS-component
+                  </span>
+                  <a
+                    className="Anchor AnchorButton Box-button"
+                    href="https://sass-lang.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col"
+            >
+              <div
+                className="sc-AxiKw fGXAce"
+              >
+                <div
+                  className="sc-AxhCb foIFqY"
+                />
+                <div
+                  className="sc-AxhUy cpMEaX"
+                >
+                  <span
+                    className="sc-AxgMl cZakdF"
+                  >
+                    Sample: styled-component
+                  </span>
+                  <a
+                    className="sc-AxjAm sc-AxirZ ciImgQ sc-AxheI dxHjdf"
+                    href="https://styled-components.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Learn More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      className="Footer"
+      data-testid="Footer"
+    >
+      <div
+        className="view-Footer"
+      >
+        <div
+          className="view-Footer-react-default-content"
+        >
+          <p>
+            Edit src/components and save to reload.
+          </p>
+          <a
+            className="Anchor view-Footer-anchor"
+            href="https://reactjs.org"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Learn React
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`[snapshots] User-is-not-Authenticated Matches-snapshot <App> 1`] = `
+<div
+  className="App"
+  data-testid="App"
+>
+  <div
+    className="Layout"
+    data-testid="Layout"
+  >
+    <div
+      className="Content"
+      data-testid="Content"
+    >
+      <div
+        className="view-Login"
+      >
+        <div
+          className="Row Row-1-col ta-center"
+        >
+          <div
+            className="col"
+          >
+            <div
+              className="ta-center"
+            >
+              <h2>
+                /login
+              </h2>
+            </div>
+          </div>
+          <div
+            className="col"
+          >
+            <h5>
+              context-state
+            </h5>
+            <button
+              className="Button"
+              onClick={[Function]}
+              title="Log in"
+              type="button"
+            >
+              Log in
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      className="Footer"
+      data-testid="Footer"
+    >
+      <div
+        className="view-Footer"
+      >
+        <div
+          className="view-Footer-react-default-content"
+        >
+          <p>
+            Edit src/components and save to reload.
+          </p>
+          <a
+            className="Anchor view-Footer-anchor"
+            href="https://reactjs.org"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Learn React
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

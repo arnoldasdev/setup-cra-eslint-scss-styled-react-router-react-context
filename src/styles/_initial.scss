@@ -1,0 +1,26 @@
+a {
+  text-align: center;
+}
+
+button {
+  box-sizing: border-box;
+  background: gray;
+}
+
+a,
+button {
+  padding: 0.5em 0.75em;
+}
+
+ul {
+  li {
+    &::before {
+      content: '⁃';
+      margin-right: 0.5em;
+    }
+  }
+}
+
+.ta-center {
+  text-align: center;
+}

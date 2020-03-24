@@ -1,0 +1,20 @@
+@use 'styles/scss/var/colors';
+@use 'styles/scss/var/breakpoints';
+
+.view-Header {
+  display: flex;
+  justify-content: space-between;
+
+  &-logo {
+    width: 96px;
+  }
+
+  &-nav {
+    display: flex;
+    align-items: baseline;
+
+    @media only screen and (max-width: breakpoints.$sm) {
+      flex-direction: column;
+    }
+  }
+}

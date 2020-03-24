@@ -1,0 +1,55 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-hooks"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "moduleDirectory": ["node_modules", "src/"]
+      }
+    }
+  },
+
+  "rules": {
+    "react/jsx-filename-extension": "off",
+    "arrow-parens": "off",
+    "no-shadow": "off",
+    "no-multiple-empty-lines": ["error", { "max": 1 }],
+    "import/prefer-default-export": "off",
+    "react/require-default-props": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "react/jsx-props-no-spreading": [
+      "warn",
+      {
+        "html": "enforce",
+        "custom": "ignore",
+        "explicitSpread": "enforce",
+        "exceptions": []
+      }
+    ],
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectPattern": { "multiline": true, "minProperties": 6 },
+        "ImportDeclaration": { "multiline": true, "minProperties": 6 },
+        "ExportDeclaration": { "multiline": true, "minProperties": 6 }
+      }
+    ]
+  }
+}

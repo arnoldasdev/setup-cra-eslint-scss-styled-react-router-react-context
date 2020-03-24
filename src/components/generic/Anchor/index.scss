@@ -1,0 +1,10 @@
+@use 'styles/scss/var/colors';
+
+.Anchor {
+  border-radius: 2px;
+  transition: background-color 200ms;
+
+  &--disabled {
+    cursor: default;
+  }
+}

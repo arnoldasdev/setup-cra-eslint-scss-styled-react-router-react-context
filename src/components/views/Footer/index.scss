@@ -1,0 +1,23 @@
+@use 'styles/scss/var/colors';
+
+.view-Footer {
+  display: flex;
+  flex-direction: column;
+
+  &-anchor {
+    text-decoration: underline;
+  }
+
+  &-react-default-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 0;
+    font-size: 0.8em;
+    color: colors.$grey;
+
+    & > * {
+      margin: 0.25rem 0;
+    }
+  }
+}

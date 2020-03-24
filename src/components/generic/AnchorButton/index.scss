@@ -1,0 +1,15 @@
+@use 'styles/scss/var/colors';
+
+.AnchorButton {
+  background-color: colors.$react;
+  color: colors.$dark;
+
+  &--disabled {
+    background-color: colors.$grey;
+  }
+
+  &:hover:not(&--disabled) {
+    background-color: colors.$hover;
+    color: colors.$dark;
+  }
+}

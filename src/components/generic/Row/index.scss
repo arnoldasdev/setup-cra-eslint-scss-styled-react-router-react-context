@@ -1,0 +1,31 @@
+@use 'styles/scss/var/breakpoints';
+
+@for $i from 1 through 6 {
+  .Row-#{$i}-col {
+    & > .col {
+      width: 100% / $i;
+    }
+  }
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2em -1rem;
+
+  & > .col {
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  @media only screen and (max-width: breakpoints.$sm) {
+    margin: 2em 0;
+    flex-direction: column;
+
+    & > .col {
+      width: 100%;
+      padding: 1rem 0;
+    }
+  }
+}
