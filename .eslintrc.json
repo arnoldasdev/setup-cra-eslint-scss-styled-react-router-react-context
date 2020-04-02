@@ -34,6 +34,7 @@
     "react/require-default-props": "warn",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
+    "linebreak-style": "off",
     "react/jsx-props-no-spreading": [
       "warn",
       {
