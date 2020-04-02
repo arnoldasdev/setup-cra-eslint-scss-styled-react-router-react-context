@@ -13,6 +13,13 @@ Install: [VS Code ESLint extension](https://marketplace.visualstudio.com/items?i
 ~~`SASS_PATH=node_modules:src`~~
 
 `SASS_PATH=node_modules;src`
+<br />
+
+## Install packages
+
+In the project directory, run:
+
+### `npm i`
 
 ---
 
