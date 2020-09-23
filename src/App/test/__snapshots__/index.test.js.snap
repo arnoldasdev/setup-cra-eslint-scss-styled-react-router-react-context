@@ -156,21 +156,21 @@ exports[`[snapshots] User-is-Authenticated Matches-snapshot <App> 1`] = `
               className="col"
             >
               <div
-                className="sc-AxiKw fGXAce"
+                className="sc-dlnjPT bkhSxZ"
               >
                 <div
-                  className="sc-AxhCb foIFqY"
+                  className="sc-hKFyIo iuyJch"
                 />
                 <div
-                  className="sc-AxhUy cpMEaX"
+                  className="sc-eCApGN hzSwdj"
                 >
                   <span
-                    className="sc-AxgMl cZakdF"
+                    className="sc-jSFkmK eHhjwz"
                   >
                     Sample: styled-component
                   </span>
                   <a
-                    className="sc-AxjAm sc-AxirZ ciImgQ sc-AxheI dxHjdf"
+                    className="sc-bdnylx sc-gtssRu hCXnCn ljNLJV sc-gKAblj laHkcQ"
                     href="https://styled-components.com/"
                     rel="noopener noreferrer"
                     target="_blank"
